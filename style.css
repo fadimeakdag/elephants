@@ -10,6 +10,7 @@ nav {
     background: #1b1b1b79;
     width: 100%;
     padding: 10px 0;
+    /* arka planın yazıyı gölgede bırakmaması için */
     z-index: 1;
 }
 nav .menu {
@@ -105,6 +106,10 @@ nav .menu {
     background: #fff;
     color: #000;
     transform: scale(1.1);
+    /* transform: rotate(20deg); */
+    /* transform: scaleY(1.5); */
+    /* transform: rotateX(150deg); */
+
     transition: all 0.3s;
 }
 
